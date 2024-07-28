@@ -212,6 +212,15 @@ span:hover:after {
   align-items: center;
 }
 
+.project a{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.project a:hover {
+  top: -20px;
+}
+
 @media screen and (max-width: 480px) {
   .container {
     display: flex;
