@@ -296,3 +296,37 @@ span:hover:after {
       margin: 0rem 0;
     }
   }
+  @media (min-width: 810px)and (max-width: 1150px){
+    .para{
+      font-size: 1.1rem;
+    }
+  }
+  @media (min-width: 811px)and (max-width: 989px){
+    .para{
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (min-width: 740px)and (max-width: 810px){
+    .para{
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (min-width: 570px)and (max-width: 739px){
+    .para{
+      font-size: 0.5rem;
+    }
+  }
+
+  @media (min-width: 350px)and (max-width: 540px){
+    .para{
+      font-size: 0.4rem;
+    }
+  }
+@media (min-width: 330px) and (max-width: 540px){
+    .para{
+      font-size: 0.3rem;
+    }
+  }
+
