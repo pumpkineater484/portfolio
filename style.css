@@ -24,7 +24,7 @@ body {
     background-image: url("sky.jpg");
     background-repeat: repeat;
     background-clip:text;
-    animation: animate 7s ease-in-out infinite;
+    animation: animate 4s ease-in-out infinite;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
