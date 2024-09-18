@@ -335,4 +335,9 @@ span:hover:after {
       font-size: 0.3rem;
     }
   }
+@media (width <= 500px) {
+    .text-container h1{
+      animation-play-state: paused;
+    }
+  }
 
