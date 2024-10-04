@@ -30,7 +30,7 @@ body {
     font-weight: 900;
   }
   
-    @keyframes animate {
+    /*@keyframes animate {
       0%, 100% {
         background-position: left top;
       }
@@ -43,7 +43,7 @@ body {
       75% {
         background-position: right top;
       }   
-  }
+  }*/
 
   .text-container{
     display: inline;
