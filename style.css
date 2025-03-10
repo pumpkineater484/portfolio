@@ -232,7 +232,7 @@ span:hover:after {
   display: flex;
   justify-content: center;
   align-items: center;
-	padding-top: 20px;
+  padding-top: 10px;
 }
 
 .project a{
