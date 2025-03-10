@@ -103,7 +103,7 @@ body {
   align-items: center;
   line-height: 30px;
   text-align: justify;
-  font-size: 2rem;
+  font-size: 1.3rem;
   flex-grow: 1; 
   flex-shrink: 1;
 }
@@ -236,35 +236,41 @@ span:hover:after {
     display: flex;
     flex-direction: column;
     align-items: center;
+	   flex-shrink: 1;
   
   }}
 
   @media (width <= 870px) {
     .para{
       font-size: 1rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (width <= 680px) {
     .para{
       font-size: 0.5rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (width <= 465px) {
     .heading{
       font-size: 2rem;
+	     flex-shrink: 1;
     }
   }
   @media (width <= 430px){
     .skillbox {
       display: inline;
+	     flex-shrink: 1;
     }
   }
 
   @media (width <= 430px){
     .heading2{
       margin-top:0px;
+	     flex-shrink: 1;
     }
   }
 
@@ -272,82 +278,97 @@ span:hover:after {
   @media (width <= 430px){
     .socialprofiles{
       display: inline;
+	     flex-shrink: 1;
     }
   }
   @media (width <= 430px){
     .heading{
       font-size: 1.5rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (width <= 540px){
     .projectdiv img{
       width: 300px;
+	     flex-shrink: 1;
     }
   }
 
   @media (width <= 480px){
     .heading2{
       margin: 0rem 0;
+	     flex-shrink: 1;
     }
   }
   @media (width <= 540px){
     .text-container h1{
       font-size: 3rem;
+	     flex-shrink: 1;
     }
   }
   @media (width <= 390px){
     .text-container h1{
       font-size: 2.7rem;
+	     flex-shrink: 1;
     }
   }
   @media (width <= 480px){
     .heading{
       margin: 0rem 0;
+	     flex-shrink: 1;
     }
   }
   @media (min-width: 810px)and (max-width: 1150px){
     .para{
       font-size: 1.1rem;
+	     flex-shrink: 1;
     }
   }
   @media (min-width: 811px)and (max-width: 989px){
     .para{
       font-size: 0.9rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (min-width: 740px)and (max-width: 810px){
     .para{
       font-size: 0.7rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (min-width: 570px)and (max-width: 739px){
     .para{
       font-size: 0.5rem;
+	     flex-shrink: 1;
     }
   }
 
   @media (min-width: 350px)and (max-width: 540px){
     .para{
       font-size: 0.4rem;
+	     flex-shrink: 1;
     }
   }
 @media (min-width: 450px) and (max-width: 540px){
     .para{
       font-size: 0.5rem;
+	     flex-shrink: 1;
     }
   }
 
 @media (width <= 360px){
     .para{
       font-size: 0.3rem;
+	     flex-shrink: 1;
     }
   }
 @media (width <= 500px) {
     .text-container h1{
       animation-play-state: paused;
+	    flex-shrink: 1;
     }
   }
 
