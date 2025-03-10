@@ -58,20 +58,25 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding-top: 20px;
+    padding-right: 10px;
    
  }
 
 #reddit :hover{
     transform: scale(1.5)
+	transition: top ease 0.5s;
 }
 #linkedin :hover{
     transform: scale(1.5)
+	transition: top ease 0.5s;
 }
 #mail :hover{
     transform: scale(1.5)
+	transition: top ease 0.5s;
 }
 #github :hover{
     transform: scale(1.5)
+	transition: top ease 0.5s;
 }
 .heading{
     color: white;
@@ -141,16 +146,19 @@ padding-top: 20px;
   justify-content: center;
   align-items: center;
   /*margin-top: 100px;*/
-  padding-top: 20px;
+  padding-top: 10px;
  }
  .description span{
   color: white;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+   padding-top: 20px;
+	 
  }
  .description{
   display: flex;
   justify-content: center;
   align-items: center;
+	  padding-top: 20px;
  }
 
 
@@ -168,7 +176,8 @@ padding-top: 20px;
 
 
 #bootstrap{
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
+	 padding-top: 20px;
 }
 
 li { 
@@ -204,7 +213,7 @@ span:hover:after {
 }
 @media screen and (max-height: 300px) {
 	ul {
-		margin-top: 40px;
+		padding-top: 40px;
 	}
 }
 .para {
@@ -222,6 +231,7 @@ span:hover:after {
   display: flex;
   justify-content: center;
   align-items: center;
+	padding-top: 20px;
 }
 
 .project a{
@@ -238,41 +248,42 @@ span:hover:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-	   flex-shrink: 1;
+    padding-top: 20px;
   
   }}
 
   @media (width <= 870px) {
     .para{
       font-size: 1rem;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
 
   @media (width <= 680px) {
     .para{
-      font-size: 0.5rem;
-	     flex-shrink: 1;
+      font-size: 0.8rem;
+	     padding-top: 20px;
     }
   }
 
   @media (width <= 465px) {
     .heading{
       font-size: 2rem;
-	     flex-shrink: 1;
+	    padding-top: 20px;
+	     
     }
   }
   @media (width <= 430px){
     .skillbox {
       display: inline;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
 
   @media (width <= 430px){
     .heading2{
       margin-top:0px;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
 
@@ -280,97 +291,97 @@ span:hover:after {
   @media (width <= 430px){
     .socialprofiles{
       display: inline;
-	     flex-shrink: 1;
+	    padding-top: 20px;
     }
   }
   @media (width <= 430px){
     .heading{
       font-size: 1.5rem;
-	     flex-shrink: 1;
+	    padding-top: 20px;
     }
   }
 
   @media (width <= 540px){
     .projectdiv img{
       width: 300px;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
 
   @media (width <= 480px){
     .heading2{
       margin: 0rem 0;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
   @media (width <= 540px){
     .text-container h1{
       font-size: 3rem;
-	     flex-shrink: 1;
+	    padding-top: 20px;
     }
   }
   @media (width <= 390px){
     .text-container h1{
       font-size: 2.7rem;
-	     flex-shrink: 1;
+	    padding-top: 20px;
     }
   }
   @media (width <= 480px){
     .heading{
       margin: 0rem 0;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
   @media (min-width: 810px)and (max-width: 1150px){
     .para{
       font-size: 1.1rem;
-	     flex-shrink: 1;
+	     padding-top: 20px;
     }
   }
   @media (min-width: 811px)and (max-width: 989px){
     .para{
       font-size: 0.9rem;
-	     flex-shrink: 1;
+	    padding-top: 20px;
     }
   }
 
   @media (min-width: 740px)and (max-width: 810px){
     .para{
-      font-size: 0.7rem;
-	     flex-shrink: 1;
+      font-size: 0.8rem;
+	     padding-top: 20px;
     }
   }
 
   @media (min-width: 570px)and (max-width: 739px){
     .para{
-      font-size: 0.5rem;
-	     flex-shrink: 1;
+      font-size: 0.8rem;
+	    padding-top: 20px;
     }
   }
 
   @media (min-width: 350px)and (max-width: 540px){
     .para{
-      font-size: 0.4rem;
-	     flex-shrink: 1;
+      font-size: 0.7rem;
+	     padding-top: 20px;
     }
   }
 @media (min-width: 450px) and (max-width: 540px){
     .para{
-      font-size: 0.5rem;
-	     flex-shrink: 1;
+      font-size: 0.7rem;
+	     padding-top: 20px;
     }
   }
 
 @media (width <= 360px){
     .para{
-      font-size: 0.3rem;
-	     flex-shrink: 1;
+      font-size: 0.6rem;
+	    padding-top: 20px;
     }
   }
 @media (width <= 500px) {
     .text-container h1{
-      animation-play-state: paused;
-	    flex-shrink: 1;
+     /* animation-play-state: paused;*/
+	    padding-top: 20px;
     }
   }
 
