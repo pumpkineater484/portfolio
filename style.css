@@ -99,6 +99,7 @@ body {
  color: white;
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,6 +127,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+     margin:0px;
   }
 
  .projectdiv img{
