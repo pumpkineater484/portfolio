@@ -187,8 +187,8 @@ margin-top: 0px;
 	margin-bottom: 30px;
 
 
-#bootstrap{
-  margin-bottom: 30px;
+/*#bootstrap{
+  margin-bottom: 30px;*/
 	 
 }
 
@@ -226,7 +226,7 @@ span:hover:after {
 }
 @media screen and (max-height: 300px) {
 	ul {
-	padding-top: 40px;
+	padding-top: 10px;
 	}
 }
 .para {
@@ -249,10 +249,10 @@ span:hover:after {
   align-items: center;
   /*padding-top: 10px;*/
 }
-	.skill{
-	display: inline-block;
-  justify-content: center;
-  align-items: center;
+.skill span{
+display: inline-block;
+justify-content: center;
+align-items: center;
 		/*padding-top: 20px;*/
 	}
 		
