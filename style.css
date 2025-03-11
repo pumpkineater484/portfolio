@@ -92,7 +92,7 @@ body {
     display: inline;
     justify-content: center;
     align-items: center;
-    padding-top: 400px;
+    padding-top: 40px;
   
 
 
@@ -101,7 +101,7 @@ body {
 .para{
  color: white;
   font-family: 'Raleway', sans-serif;
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 2.3rem;
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,12 +144,12 @@ margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;*/
+  margin-top: 40px;*/
 
  }
  .description span{
   color: white;
-  margin-top: 50px;
+  margin-top: 40px;
 	 font-size: 2rem;
 	 
  }
@@ -166,7 +166,7 @@ margin-top: 0px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 2.3rem;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,7 +261,7 @@ span:hover:after {
   padding-bottom: 30px;
 }
 .project a:hover {
-  top: -20px;
+  margin-top: -20px;
 }
 
 @media screen and (max-width: 480px) {
