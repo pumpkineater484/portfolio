@@ -81,7 +81,7 @@ body {
 .heading{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
    /* margin-top: 100px;*/
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ body {
     justify-content: center;
     align-items: center;
     /*margin-top: 400px;*/
-    padding-top: 20px;
+   /* padding-top: 20px;*/
 
 
 
@@ -161,7 +161,7 @@ padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-	  padding-top: 20px;
+	 /* padding-top: 20px;*/
  }
 
 
@@ -169,12 +169,12 @@ padding-top: 50px;
 .heading3{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.3rem;
  /* margin-top: 60px;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .scrollbar{
@@ -190,6 +190,7 @@ li {
   display: table-cell; 
   position: relative; 
   padding: 15px 0;
+	
 }
 span {
   color: #fff;
@@ -234,7 +235,7 @@ span:hover:after {
 }
 
 .skillbox{
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   /*padding-top: 10px;*/
