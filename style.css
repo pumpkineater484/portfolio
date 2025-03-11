@@ -57,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px;
+    margin: 0px;
    
  }
 
@@ -81,11 +81,11 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
-    padding-top: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding-top: 20px;*/
+    
 }
 .aboutme{
     height: 1000px;
@@ -93,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 400px;
-   /* padding-top: 20px;*/
+  
 
 
 
@@ -124,11 +124,10 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 2.3rem;
-    padding-top: 100px;*/
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding-top: 20px;*/
   }
 
  .projectdiv img{
@@ -137,7 +136,7 @@ height: 300px;
 border: solid white;
 background-size: contain;
 margin-top: 0px;
-/*padding-top: 50px;*/
+
 	
 
  }
@@ -145,19 +144,20 @@ margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;*/
- /* padding-top: 20px;*/
+  margin-top: 100px;*/
+
  }
  .description span{
   color: white;
-  padding-top: 50px;
+  margin-top: 50px;
+	 font-size: 2rem;
 	 
  }
  .description{
   display: flex;
   justify-content: center;
   align-items: center;
-	 /* padding-top: 20px;*/
+	
  }
 
 
@@ -166,27 +166,27 @@ margin-top: 0px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 2.3rem;
-  padding-top: 60px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*padding-top: 10px;*/
+  
 }
 
 .knowledge{
   display: flex;
   justify-content: center;
   align-items: center;
-	/*padding-top: 10px;*/
+	
 }
 
 .scrollbar{
-	padding-bottom: 50px;
+	margin-bottom: 30px;
 
 
 #bootstrap{
-  padding-bottom: 50px;
-	 /*padding-top: 50px;*/
+  margin-bottom: 30px;
+	 
 }
 
 li { 
@@ -258,6 +258,7 @@ span:hover:after {
   position: relative;
   top: 0;
   transition: top ease 0.5s;
+  padding-bottom: 30px;
 }
 .project a:hover {
   top: -20px;
@@ -302,7 +303,7 @@ span:hover:after {
 
   @media (width <= 430px){
     .heading2{
-      padding-top:0px;
+      margin-top:0px;
 	   /*  padding-top: 50px;*/
    }
   }
@@ -401,17 +402,17 @@ span:hover:after {
 
 @media (width <= 770px){
     .para {
-      padding: 10px 0;
+      margin: 10px 0;
     }
   }
   @media (width <= 480px){
     .heading2 {
-      padding: 0px 0;
+      margin: 0px 0;
     }
   }
   @media (width <= 482px){
     .socialprofiles {
-      padding: 10px 0;
+      margin: 10px 0;
     }
   }
 /*@media (width <= 500px) {
