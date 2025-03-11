@@ -126,18 +126,20 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 2.3rem;
-    padding-bottom: -40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+.heading2 h{
+margin-bottom: -30px;
 
  .projectdiv img{
 width: 500px;
 height: 300px;
 border: solid white;
 background-size: contain;
-margin-top: 0px;
+margin-top: 40px;
 
 	
 
@@ -146,13 +148,15 @@ margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;*/
+
 
  }
+
+
  .description span{
   color: white;
   margin-top: 40px;
-	 font-size: 2rem;
+  font-size: 2rem;
 	 
  }
  .description{
