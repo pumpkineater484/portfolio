@@ -176,6 +176,7 @@ font-size: 1.2rem;
 .skillbox{
 display: flex; 
 flex-wrap: wrap;
+margin: 0 auto;
 }
 
 .skill{
