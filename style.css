@@ -107,7 +107,7 @@ body {
   text-justify: inter-word;
   font-size: 1.2rem;
   max-height: 200px;
-  max-width: 850px;
+  max-width: 1000px;
 	
 }
 
@@ -161,7 +161,7 @@ background-size: contain;
 .heading3{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-top: 5px;
   display: flex;
   justify-content: center;
