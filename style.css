@@ -57,8 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 20px;
-    padding-right: 7px;
+    padding: 0px;
    
  }
 
@@ -100,18 +99,16 @@ body {
 
 }
 .para{
-  color: white;
+ color: white;
   font-family: 'Raleway', sans-serif;
-  padding-top: 100px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 30px;
+  line-height: 40px;
   text-align: justify;
+  text-justify: inter-word;
   font-size: 1.3rem;
-  /*padding-top: 50px;*/
-  /*width: 500px;*/
-  height: 300px;
 	
 }
 
@@ -126,7 +123,7 @@ body {
   .heading2{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     padding-top: 100px;*/
     display: flex;
     justify-content: center;
@@ -153,8 +150,7 @@ margin-top: 0px;
  }
  .description span{
   color: white;
-  /*margin-top: 50px;*/
-  /* padding-top: 20px;*/
+  padding-top: 50px;
 	 
  }
  .description{
@@ -169,8 +165,8 @@ margin-top: 0px;
 .heading3{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  padding-top: 60px;*/
+  font-size: 2.3rem;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +223,7 @@ span:hover:after {
 }
 @media screen and (max-height: 300px) {
 	ul {
-		/*padding-top: 40px;*/
+	padding-top: 40px;
 	}
 }
 .para {
@@ -235,13 +231,16 @@ span:hover:after {
   transform: translateY(50px);
   transition: all 1.2s ease-out;
 }
+	.para p{
+  text-align: justify;
+}
 
 .paraVisible {
   opacity: 1;
   transform: translateY(0);
 }
 
-.skillbox{
+/*.skillbox{
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -303,7 +302,7 @@ span:hover:after {
 
   @media (width <= 430px){
     .heading2{
-      margin-top:0px;
+      padding-top:0px;
 	   /*  padding-top: 50px;*/
    }
   }
@@ -331,7 +330,7 @@ span:hover:after {
 
   @media (width <= 480px){
     .heading2{
-      margin: 0rem 0;
+      padding: 0rem 0;
 	    /* padding-top: 50px;*/
    }
   }
@@ -349,7 +348,7 @@ span:hover:after {
   }
   @media (width <= 480px){
     .heading{
-      margin: 0rem 0;
+      padding: 0rem 0;
 	   /*  padding-top: 50px;*/
    }
   }
@@ -399,7 +398,7 @@ span:hover:after {
 	   /* padding-top: 50px;*/
     }
   }
-@media (width <= 500px) {
+/*@media (width <= 500px) {
     .text-container h1{
      /* animation-play-state: paused;*/
 	  /*  padding-top: 50px;*/
