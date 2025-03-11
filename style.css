@@ -109,7 +109,8 @@ body {
   text-align: justify;
   text-justify: inter-word;
   font-size: 1.3rem;
-  height: 400px;
+  max-height: 400px;
+  max-width: 300px;
 	
 }
 
@@ -185,6 +186,11 @@ margin-top: 0px;
 .scrollbar{
 	margin-bottom: 30px;
 
+.skillbox{
+	display:inline-block;
+}
+		
+
 
 #bootstrap{
   margin-bottom: 30px;
@@ -256,7 +262,7 @@ span:hover:after {
 	}
 		
 
-.project a{
+/*.project a{
   position: relative;
   top: 0;
   transition: top ease 0.5s;
@@ -264,7 +270,7 @@ span:hover:after {
 }
 .project a:hover {
   margin-top: -20px;
-}
+}*/
 
 @media screen and (max-width: 480px) {
   .container {
