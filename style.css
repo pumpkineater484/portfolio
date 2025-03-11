@@ -107,7 +107,7 @@ body {
   text-justify: inter-word;
   font-size: 1.2rem;
   max-height: 200px;
-  max-width: 1000px;
+  max-width: 100%vw;
 	
 }
 
@@ -254,6 +254,10 @@ align-items: center;
 	margin-bottom: 5px;
 		/*padding-top: 20px;*/
 	}
+.skill image{
+	height:40px;
+	width: 40px;
+}
 		
 
 /*.project a{
