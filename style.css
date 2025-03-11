@@ -157,6 +157,7 @@ margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 	
  }
 
@@ -165,8 +166,8 @@ margin-top: 0px;
 .heading3{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2.3rem;
-  margin-top: 40px;
+  font-size: 2rem;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,6 +414,12 @@ span:hover:after {
   @media (width <= 482px){
     .socialprofiles {
       margin: 10px 0;
+    }
+  }
+
+@media (width <= 770px){
+    .description {
+      font-size: 0.8rem;
     }
   }
 /*@media (width <= 500px) {
