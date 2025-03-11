@@ -109,8 +109,8 @@ body {
   text-align: justify;
   text-justify: inter-word;
   font-size: 1.3rem;
-  max-height: 400px;
-  max-width: 300px;
+  max-height: 200px;
+  max-width: 500px;
 	
 }
 
@@ -186,11 +186,6 @@ margin-top: 0px;
 .scrollbar{
 	margin-bottom: 30px;
 
-.skillbox{
-	display:inline-block;
-}
-		
-
 
 #bootstrap{
   margin-bottom: 30px;
@@ -255,7 +250,7 @@ span:hover:after {
   /*padding-top: 10px;*/
 }
 	.skill{
-		display: flex;
+	display: inline-block;
   justify-content: center;
   align-items: center;
 		/*padding-top: 20px;*/
