@@ -178,6 +178,7 @@ display: inline-block;
 justify-content: center;
 align-items: center;
 margin-bottom: 5px;
+max-height: 100px;
 	
 }
 
