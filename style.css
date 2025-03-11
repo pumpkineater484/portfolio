@@ -149,7 +149,7 @@ padding-top: 50px;
   justify-content: center;
   align-items: center;
   /*margin-top: 100px;*/
-  /*padding-top: 10px;*/
+  padding-top: 20px;
  }
  .description span{
   color: white;
@@ -174,7 +174,7 @@ padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .scrollbar{
