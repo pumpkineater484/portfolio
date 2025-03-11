@@ -298,6 +298,7 @@ align-items: center;
   @media (width <= 680px) {
     .para{
       font-size: 0.6rem;
+	    max-height: 400px;
 	    /* padding-top: 50px;*/
    }
   }
@@ -305,6 +306,7 @@ align-items: center;
   @media (width <= 465px) {
     .heading{
       font-size: 2rem;
+	    
 	   /* padding-top: 50px;*/
 	     
    }
@@ -391,6 +393,7 @@ align-items: center;
   @media (min-width: 570px)and (max-width: 739px){
     .para{
       font-size: 0.7rem;
+	    max-height: 450px;
 	  /* padding-top: 50px;*/
    }
   }
@@ -398,12 +401,14 @@ align-items: center;
   @media (min-width: 350px)and (max-width: 540px){
     .para{
       font-size: 0.5rem;
+	    max-height: 450px;
 	    /* padding-top: 50px;*/
    }
   }
 @media (min-width: 450px) and (max-width: 540px){
     .para{
       font-size: 0.5rem;
+	    max-height: 450px;
 	    /* padding-top: 50px;*/
    }
   }
@@ -411,6 +416,7 @@ align-items: center;
 @media (width <= 360px){
     .para{
       font-size: 0.6rem;
+	    max-height: 450px;
 	   /* padding-top: 50px;*/
     }
   }
