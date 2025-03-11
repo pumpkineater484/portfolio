@@ -168,13 +168,14 @@ background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   
 }
 
 
 .skillbox{
 display: flex; 
-flex-wrap: wrap;
+flex-direction: column;
 margin: 0 auto;
 }
 
