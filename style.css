@@ -320,7 +320,7 @@ align-items: center;
 
   @media (width <= 430px){
     .heading2{
-      margin-top:0px;
+      padding-top:0px;
 	   /*  padding-top: 50px;*/
    }
   }
@@ -348,7 +348,7 @@ align-items: center;
 
   @media (width <= 480px){
     .heading2{
-      padding: 0rem 0;
+      padding-top: 0;
 	    /* padding-top: 50px;*/
    }
   }
