@@ -398,6 +398,22 @@ span:hover:after {
 	   /* padding-top: 50px;*/
     }
   }
+
+@media (width <= 770px){
+    .para {
+      padding: 10px 0;
+    }
+  }
+  @media (width <= 480px){
+    .heading2 {
+      padding: 0px 0;
+    }
+  }
+  @media (width <= 482px){
+    .socialprofiles {
+      padding: 10px 0;
+    }
+  }
 /*@media (width <= 500px) {
     .text-container h1{
      /* animation-play-state: paused;*/
