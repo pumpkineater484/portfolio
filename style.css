@@ -175,7 +175,8 @@ background-size: contain;
 
 .skillbox{
 display: flex; 
-flex-direction: column;
+justify-content: center; /* Center horizontally */
+  align-items: center;
 margin: 0 auto;
 }
 
