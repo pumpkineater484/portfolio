@@ -177,6 +177,7 @@ background-size: contain;
 display: flex; 
 justify-content: center; /* Center horizontally */
   align-items: center;
+	flex-wrap: wrap;
 margin: 0 auto;
 }
 
