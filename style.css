@@ -400,6 +400,7 @@ align-items: center;
       font-size: 0.7rem;
 	    max-height: 450px;
 	    transition: none;
+	    transform: none;
 	  /* padding-top: 50px;*/
    }
   }
@@ -409,6 +410,7 @@ align-items: center;
       font-size: 0.5rem;
 	    max-height: 450px;
 	     transition: none;
+	    transform: none;
 	    /* padding-top: 50px;*/
    }
   }
@@ -417,6 +419,7 @@ align-items: center;
       font-size: 0.5rem;
 	    max-height: 450px;
 	     transition: none;
+	    transform: none;
 	    /* padding-top: 50px;*/
    }
   }
@@ -426,6 +429,7 @@ align-items: center;
       font-size: 0.6rem;
 	    max-height: 450px;
 	     transition: none;
+	    transform: none;
 	   /* padding-top: 50px;*/
     }
   }
